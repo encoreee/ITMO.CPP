@@ -37,9 +37,71 @@ int main()
 					}
 				}
 			}
+			while (amount >= 2)
+			{
+				amount -= 2;
+				counter++;
+				if (amount < 2)
+				{
+					while (amount == 1)
+					{
+						amount -= 1;
+						counter++;
+
+					}
+				}
+			}
+			while (amount == 1)
+			{
+				amount -= 1;
+				counter++;
+
+			}
 		}
 	}
-	std::cout << counter;
+	while (amount >= 5)
+	{
+		amount -= 5;
+		counter++;
+		if (amount < 5)
+		{
+			while (amount >= 2)
+			{
+				amount -= 2;
+				counter++;
+				if (amount < 2)
+				{
+					while (amount == 1)
+					{
+						amount -= 1;
+						counter++;
+
+					}
+				}
+			}
+		}
+	}
+	while (amount >= 2)
+	{
+		amount -= 2;
+		counter++;
+		if (amount < 2)
+		{
+			while (amount == 1)
+			{
+				amount -= 1;
+				counter++;
+
+			}
+		}
+	}
+	while (amount == 1)
+	{
+		amount -= 1;
+		counter++;
+
+	}
+	std::cout << "number of coins: " << counter;
 
 
 
