@@ -1,0 +1,5 @@
+﻿  Lab_2_5_4 contr.cpp
+D:\Repository\ITMO.Cpp\Lab_2_5_4 contr\Lab_2_5_4 contr.cpp(10,13): warning C4018: <=: несоответствие типов со знаком и без знака
+D:\Repository\ITMO.Cpp\Lab_2_5_4 contr\Lab_2_5_4 contr.cpp(41,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\Repository\ITMO.Cpp\Lab_2_5_4 contr\Lab_2_5_4 contr.cpp(46,15): warning C4018: >=: несоответствие типов со знаком и без знака
+  Lab_2_5_4 contr.vcxproj -> D:\Repository\ITMO.Cpp\Debug\Lab_2_5_4 contr.exe
