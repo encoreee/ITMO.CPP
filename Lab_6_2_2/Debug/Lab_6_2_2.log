@@ -1,0 +1,4 @@
+﻿  Lab_6_2_2.cpp
+D:\Repository\ITMO.Cpp\Lab_6_2_2\Lab_6_2_2.cpp(9,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Repository\ITMO.Cpp\Lab_6_2_2\Lab_6_2_2.cpp(25,25): warning C4018: <: несоответствие типов со знаком и без знака
+  Lab_6_2_2.vcxproj -> D:\Repository\ITMO.Cpp\Debug\Lab_6_2_2 contr.exe
