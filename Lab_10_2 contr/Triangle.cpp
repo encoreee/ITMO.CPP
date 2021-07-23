@@ -29,7 +29,7 @@ double Triangle::getSquare()
 	double s1 = getSideLength(h1, h2);
 	double s2 = getSideLength(h2, h3);
 	double s3 = getSideLength(h3, h1);
-	return sqrt(p * (p - s1) * (p - s2) * (p - s3));
+	return sqrt(p/2 * (p/2 - s1) * (p/2 - s2) * (p/2 - s3));
 }
 
 
