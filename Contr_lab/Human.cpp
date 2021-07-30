@@ -1,4 +1,5 @@
 #include "Human.h"
+
 Human::Human(string name, string last_name)
 {
     Human::set_name(name);
@@ -8,10 +9,10 @@ Human::~Human()
 {
 }
 
-
 Human::Human()
 {
 }
+
 
 void Human::set_name(std::string student_name)
 {

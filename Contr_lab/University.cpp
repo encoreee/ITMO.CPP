@@ -9,3 +9,8 @@ std::string University::get_title()
 {
 	return University::title;
 }
+
+
+University::~University()
+{
+}

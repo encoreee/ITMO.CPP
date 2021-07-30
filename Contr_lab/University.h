@@ -3,7 +3,7 @@
 class University
 {
 	std::string title;
-	University();
+	~University();
 
 public:
 

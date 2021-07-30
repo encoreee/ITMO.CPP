@@ -2,7 +2,5 @@
 
 int main()
 {
-	
 		UI::showMenu();
-	
 }

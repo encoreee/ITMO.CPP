@@ -4,10 +4,17 @@
 class Student :
     public Human
 {
-private:
-    University * university;
+
 public:
+    Student(std::string, std::string);
+    ~Student();
     void set_univer(University* u);
     University* get_univer();
+    Human* get();
+
+private:
+    University* university;
+
+
 };
 

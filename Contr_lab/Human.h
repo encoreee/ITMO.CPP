@@ -5,10 +5,11 @@ using namespace std;
 
 class Human
 {
+	Human();
+
 public:
 
 	Human(string, string);
-	Human();
 	~Human();
 
 	void set_name(string);
@@ -18,14 +19,14 @@ public:
 	void set_card(PersonCard* cd);
 	PersonCard* get_card();
 
-	virtual Human get() = 0;
+	virtual Human * get() = 0;
 
 	friend bool operator< (const Human&, const Human&);
 	friend bool operator> (const Human&, const Human&);
 	friend bool operator== (const Human&, const Human&);
 	friend bool operator!= (const Human&, const Human&);
 
-private:
+protected:
 
 	string name;
 	string last_name;

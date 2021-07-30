@@ -2,10 +2,15 @@
 #include <string>
 class Company
 {
-private:
-	std::string title;
+
 public:
+
+	Company(std::string);
+	~Company();
 	std::string get_title();
 	void set_title(std::string);
+
+private:
+	std::string title;
 };
 

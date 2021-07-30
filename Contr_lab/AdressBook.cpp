@@ -14,7 +14,7 @@ void AdressBook::delPerson(int index)
 	arr.erase(iter);
 }
 
-void AdressBook::GroupSort()
+void AdressBook::Sort()
 {
 	arr.sort();
 }
@@ -60,10 +60,7 @@ int  AdressBook::getSize()
 	return arr.size();
 }
 
-void AdressBook::GroupOut()
+list<Human*> AdressBook::Out()
 {
-	for (auto it = arr.cbegin(); it != arr.cend(); it++)
-	{
-
-	}
+	return arr;
 }

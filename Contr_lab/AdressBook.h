@@ -18,8 +18,8 @@ public:
 	string getName();
 	int  getSize();
 	void addPerson(Human*);
-	void GroupOut();
-	void GroupSort();
+	std::list<Human*> Out();
+	void Sort();
 	void delPerson(int i);
 	Human* findPerson(string, string);
 
